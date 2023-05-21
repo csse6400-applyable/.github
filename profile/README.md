@@ -24,13 +24,16 @@ Instead of trying to build everything manually (which is prone to errors), we wi
 **Prerequisites**
 
 [What is an OpenAPI spec?](https://www.openapis.org/what-is-openapi)
+
 When we are designing an API, we can choose any path for our endpoints. For example
 `@api.route('/users/')` and `@api.route('/get_users/')`  are both valid. However, there are standards to defining APIs around the world so that developers can easily understand or guess it. One of those standards is the OpenAPI standard.
 
 [What is Swagger?](https://swagger.io/blog/api-strategy/difference-between-swagger-and-openapi/)
+
 Swagger is a tool to help define OpenAPI spec. Swagger codegen is a tool to automatically generate code for an OpenAPI spec. Swagger Hub is a directory of numerous OpenAPI specs. We can get a sample spec for a dating app there, to compare our API to industry standards.
 
 [What is an ORM?](https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/)
+
 ORM (Object Relational Mapping) is a way to map Object Oriented Programming Models to Databases so that we don't have to define database classes in raw SQL manually. SQLAlchemy is one such ORM tool.
 Example:
 ```python
@@ -76,6 +79,7 @@ def get_users():
 **FAQs**
 
 **Q.** Why aren't we doing it like we did the assignment?
+
 **A.** We had just 7-8 endpoints in the assignment. Once we tackle something of [this scale](https://app.swaggerhub.com/apis/Alsouidan/Tinder/1.0.0), it becomes exponentially more difficult to debug and keep track of errors.
 
 **Q.** Why do we use Connexion? Why can't we just
@@ -85,6 +89,7 @@ def get_user(user_id):
 	...
 ```
 like we did in the assignments?
+
 **A.** Again, when we have like 20-40 endpoints, managing each endpoint separately becomes a major hassle. That is why we separate the **spec** (`@api.route('/users/<int:user_id>')`), from its implementation. That way, we can define all the specs all at once and keep making the implementations later.
 
 ___
