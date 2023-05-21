@@ -6,7 +6,7 @@ The project brief has already been defined. In essence, we're building a "dating
 ```mermaid
 graph LR
     A[Backend API] --- B[Mobile App Frontend]
-    B --> C((Actor))
+    B --> C((User))
     
     style A fill:#0074D9, stroke:#0074D9
     style B fill:#2ECC40, stroke:#2ECC40
