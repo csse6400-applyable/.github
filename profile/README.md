@@ -22,6 +22,7 @@ Instead of trying to build everything manually (which is prone to errors), we wi
 > You are requested to go through the *prerequisites*, and *FAQs* thoroughly so that you can understand why we're doing what we're doing.
 
 **Prerequisites**
+
 [What is an OpenAPI spec?](https://www.openapis.org/what-is-openapi)
 When we are designing an API, we can choose any path for our endpoints. For example
 `@api.route('/users/')` and `@api.route('/get_users/')`  are both valid. However, there are standards to defining APIs around the world so that developers can easily understand or guess it. One of those standards is the OpenAPI standard.
