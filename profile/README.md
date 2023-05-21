@@ -1,3 +1,4 @@
+
 # ApplyAble Developer Documentation
 
 ### What we'll build
@@ -114,6 +115,21 @@ We will use `docker-compose` for local development and testing, with multiple co
 
 We will use `terraform` with `ECS` and `RDS` to deploy online.
 
+___
+### Development Methodology and CI/CD
+The development methodology is a major hurdle in teamwork. To equally distribute tasks and make sure that everyone is held accountable for their work, we will use some simple measures.
+
+**Agile Development**
+
+We will use Agile Development *(2-4 day sprints)* to quickly have running versions of the project at every stage.
+
+**Task Tickets**
+
+We will create tickets for every task using **GitHub Issues** in which we will decribe the task in detail. The tickets will then be picked up by one or more team members.
+
+**Automated Tests**
+
+We will use **GitHub Actions** to automatically run tests (similar to the conformance tests) on our APIs. This will make it very easy to monitor our progress and make for easier accountability.
 ___
 **Resources**
 
