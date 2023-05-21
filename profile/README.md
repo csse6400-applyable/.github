@@ -107,9 +107,11 @@ ___
 We will use the approach used in the CSSE6400 tuts and assignment to manage our deployments smoothly.
 
 **Local Development**
+
 We will use `docker-compose` for local development and testing, with multiple containers for the APIs
 
 **Deployment**
+
 We will use `terraform` with `ECS` and `RDS` to deploy online.
 
 ___
