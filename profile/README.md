@@ -1,7 +1,7 @@
 # ApplyAble Developer Documentation
 
 ### What we'll build
-The project brief has already been defined. In essence, we're building a "dating app". The dating app will majorly have two components:
+The project brief has already been defined earlier. Please refer to it for the project aims. In essence, we're building a "dating app". The dating app will majorly have two components:
 
 ```mermaid
 graph LR
@@ -12,12 +12,12 @@ graph LR
     style B fill:#2ECC40, stroke:#2ECC40
 ```
 
-The frontend will be built on **React Native** and will be relatively very simple, only calling the backend APIs and displaying the views. This brief majorly concerns the **backend architecture**.
+The frontend will be built on **React Native** and will be relatively very simple, only calling the backend APIs and displaying the views. This doc majorly concerns the **backend architecture**.
 
 We will use a lot of the practices from the **CSSE6400 Cloud Assignment** in our project, including the use of `Docker, Docker-compose, PostgreSQL, Terraform, ECS, SQS`, and other AWS services.
 
 ### Building the API
-Instead of trying to build everything manually (which is prone to errors), we will automate almost all of the process for building the backend API using in dustry standard tools. 
+Instead of trying to build everything manually (which is prone to errors), we will automate almost all of the process for building the backend API using industry standard tools. 
 
 > You are requested to go through the *prerequisites*, and *FAQs* thoroughly so that you can understand why we're doing what we're doing.
 
